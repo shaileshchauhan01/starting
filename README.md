@@ -1,0 +1,2 @@
+# starting
+learning js basics
