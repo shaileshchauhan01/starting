@@ -47,3 +47,32 @@ console.log(typeof myObj);
 console.log(typeof myFunc);
 
 // The typeof reference : https://tc39.es/ecma262/#sec-typeof-operator
+
+
+
+// Two types of memory
+// STACK (Primitive); HEAP (Reference);
+
+// STACK : copies the value and access it thats why it is not changed.
+let thatName = "Curtains";
+curName = thatName;
+    console.log(thatName);
+    console.log(curName);
+
+curName = "Bedsheets";
+    console.log(curName);
+
+
+// HEAP : access the real value so if we change the refered value it means we change the real value.
+let myObj1 = {
+    objName : "Dinning Table",
+    objQnt : "Five"
+}
+    console.log(myObj1);
+
+let yourObj = myObj1;
+    console.log(yourObj);
+
+yourObj.objName = "Study Table";
+yourObj.objQnt = "Eight";
+console.log(myObj1);
