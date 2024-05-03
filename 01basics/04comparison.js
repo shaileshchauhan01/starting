@@ -7,8 +7,8 @@ console.log(2 > "1");
 // comparison converts the null to a number and treats as 0
 // that why null >= 0 is TRUE; null > 0 is FALSE : watch below
 
-console.log(null > 0); // '>' converts null to 0 but 0 > 0 thats why it is false
-console.log(null >= 0); // '>' converts null to 0 thats why 0 = 0 is true
+console.log(null > 0); // '>' converts null to number, treats as 0 but 0 > 0 thats why it is false
+console.log(null >= 0); // '>' converts null to number, treats as 0 thats why 0 = 0 is true
 console.log(null <= 0);
 console.log(null < 0);
 console.log(null == 0); // '=' also 
