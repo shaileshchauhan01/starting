@@ -1,7 +1,8 @@
-//singleout
-//containers : object.create
+//singleton
+//constructor : object.create
 
-// object literals
+
+// OBJECT LITERALS
 
 let mySymbol = Symbol("symbol1");
 let mySym = Symbol("symbol2");
