@@ -1,3 +1,5 @@
+// OBJECT CONSTRUCTOR
+
 // const tUser = new Object() // both works same, below and this syntax
 const tUser = {}
 
