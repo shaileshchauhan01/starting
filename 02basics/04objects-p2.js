@@ -80,11 +80,11 @@ console.log(dur)
 
 // API
 // api is in object/ JSON
-{
-    "name": "shailesh"
-    "age" : 21,
-    "last name": "chauhan"
-}
+// {
+//     "name": "shailesh"
+//     "age" : 21,
+//     "last name": "chauhan"
+// }
 
 // api also in array
 [
