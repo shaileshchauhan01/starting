@@ -11,7 +11,8 @@ if (temp <= 45) {
 }
 
 const balance = 1000;
-if( balance > 500) console.log("High balance");              // dont preffer; we can use this like: console.log("High balance"), console.log("Low balance");
+if( balance > 500) console.log("High balance");              
+// if( balance > 500) console.log("High balance"), console.log("Low balance");         // don't prefer this like 
 
   const userLoggedIn = true;
   const userDebitCard = true;
