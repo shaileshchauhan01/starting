@@ -1,0 +1,39 @@
+<!-- DOM : Document Object Model -->
+<!-- document made up of objects , objects : head, body ,... -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <div class="div">
+        <h1 class="head">HEADING</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+</body>
+</html>
+
+<!--                        Window
+                               |
+                            Document
+                               |
+                              HTML
+                      /                 \
+                   Head                 Body
+        /          /                      \
+      title      meta                     div   
+       |          |                         \             \              \ 
+  text node    attribute                 attribute        h1              p
+                                                       /      \            \    
+                                                  attribute  text node    text node                -->
+
+
+<!-- console -->
+<!-- console.log(document)
+document.getElementById
+document.getElementById('History');
+document.getElementById('History').innerHTML = "Your History";                       to change its value
+document.getElementById('History').innerHTML = "<h1>Your History</h1>"               to put heading also -->
